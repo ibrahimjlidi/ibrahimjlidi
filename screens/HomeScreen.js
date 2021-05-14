@@ -26,6 +26,34 @@ import {View ,Text,StyleSheet } from 'react-native';
           </Interaction>
           </InteractionWrapper>    
       </Card>
+      <Card>
+        <UserInfo>
+          <UserImg source={require('../assets/users/user-3.jpg') } />
+          <UserName>Jenny Done</UserName>
+          <PostTime>6 Hours ago </PostTime>
+        </UserInfo>
+        <PostText>Hello World </PostText>
+        <PostImg source={require('../assets/posts/post-img-2.jpg') }/> 
+        <InteractionWrapper>
+          <Interaction>
+            <Text>Give 2git</Text>
+          </Interaction>
+          </InteractionWrapper>    
+      </Card>
+      <Card>
+        <UserInfo>
+          <UserImg source={require('../assets/users/user-3.jpg') } />
+          <UserName>Jenny Done</UserName>
+          <PostTime>6 Hours ago </PostTime>
+        </UserInfo>
+        <PostText>Hello World </PostText>
+        <PostImg source={require('../assets/posts/post-img-2.jpg') }/> 
+        <InteractionWrapper>
+          <Interaction>
+            <Text>Give 3 </Text>
+          </Interaction>
+          </InteractionWrapper>    
+      </Card>
     </Container>
     );
   };

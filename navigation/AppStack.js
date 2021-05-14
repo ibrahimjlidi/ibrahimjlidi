@@ -7,6 +7,7 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import FontAwesome5 from 'react-native-vector-icons/FontAwesome5';
 
 import HomeScreen from '../screens/HomeScreen';
+import SettingsScreen from '../screens/SettingsScreen';
 import ChatScreen from '../screens/ChatScreen';
 import ProfileScreen from '../screens/ProfileScreen';
 import AddPostScreen from '../screens/AddPostScreen';
@@ -19,7 +20,7 @@ const Tab = createBottomTabNavigator();
 const FeedStack = ({navigation}) => (
   <Stack.Navigator>
     <Stack.Screen
-      name="RN Social"
+      name="JOUD"
       component={HomeScreen}
       options={{
         headerTitleAlign: 'center',
@@ -148,6 +149,21 @@ const AppStack = () => {
         component={FeedStack}
         options={({route}) => ({
           tabBarLabel: 'Home',
+          // tabBarVisible: route.state && route.state.index === 0,
+          tabBarIcon: ({color, size}) => (
+            <MaterialCommunityIcons
+              name="home-outline"
+              color={color}
+              size={size}
+            />
+          ),
+        })}
+      />
+       <Tab.Screen
+        name="SettingsScreen"
+        component={SettingsScreen}
+        options={({route}) => ({
+          tabBarLabel: 'Setting',
           // tabBarVisible: route.state && route.state.index === 0,
           tabBarIcon: ({color, size}) => (
             <MaterialCommunityIcons
