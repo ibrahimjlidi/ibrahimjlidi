@@ -5,11 +5,11 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ibrahimjlidi" alt="ibrahimjlidi" /></a> </p>
 
-- 🔭 I’m currently working on **JOOD**
+- 🔭 I’m currently working on **website with angular 15 / nestjs**
 
-- 🌱 I’m currently learning **React**
+- 🌱 I’m currently learning **Angular**
 
-- 💬 Ask me about **react**
+- 💬 Ask me about **Angluar**
 
 - 📫 How to reach me **ibrahimjlidi23@gmail.com**
 
