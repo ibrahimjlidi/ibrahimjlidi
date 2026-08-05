@@ -52,9 +52,7 @@
 ### 🏆 GitHub Trophies
 
 <p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=ibrahimjlidi&theme=onedark" alt="ibrahimjlidi trophies" />
-  </a>
+  <img src="https://github-profile-trophy.vercel.app/?username=ibrahimjlidi&theme=onedark" alt="ibrahimjlidi trophies" />
 </p>
 
 ---
@@ -62,8 +60,11 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ibrahimjlidi&show_icons=true&theme=tokyonight&count_private=true" alt="Ibrahim's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ibrahimjlidi&layout=compact&theme=tokyonight" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ibrahimjlidi&show_icons=true&theme=tokyonight&count_private=true" alt="Ibrahim's GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ibrahimjlidi&layout=compact&theme=tokyonight" alt="Top Languages" />
 </p>
 
 <p align="center">
